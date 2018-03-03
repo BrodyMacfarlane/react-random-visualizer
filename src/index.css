@@ -14,7 +14,6 @@ body {
 }
 
 .button-container {
-  text-align: center;
   margin-top: 300px;
 }
 
@@ -33,10 +32,10 @@ button {
 
 .freq {
   width: 60px;
-  height: 40px;
+  height: 10px;
   background-color: #000;
   display: inline-block;
   margin: 10px;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+  /* transition: ease-in-out 0.2s; */
   vertical-align: top;
 }
